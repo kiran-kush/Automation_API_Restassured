@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/kiran.kushwah/IdeaProjects/Automation_API/src/test">
+        <classes>
+           <class name="RestassureHelloworld.RassuredAssured.CRUD.Post_REQUEST.ra_Post_Non_BDD"> </class>
+        </classes>
+    </test>
+</suite>
