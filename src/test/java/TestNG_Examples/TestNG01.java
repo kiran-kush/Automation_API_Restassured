@@ -1,41 +1,45 @@
 package TestNG_Examples;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.testng.annotations.*;
 
 public class TestNG01 {
-    @Description
+    @Severity( SeverityLevel.NORMAL)
+    @Description ("This is test")
     @BeforeSuite
     void demo1(){
 
         System.out.println("before suit");
     }
-    @Description
+    @Severity(SeverityLevel.NORMAL)
+    @Description ("This is test")
     @BeforeMethod
     void demo4(){
 
         System.out.println("this is before method");
     }
-    @Description
+
     @Test
     void test1(){
 
         System.out.println("test1");
     }
-    @Description("this for test")
+
     @Test
 
     void test2(){
 
         System.out.println("test2");
     }
-    @Description
+
     @AfterMethod
     void demo6(){
 
         System.out.println("this is after method");
     }
-    @Description
+
     @AfterSuite
     void demo9(){
 

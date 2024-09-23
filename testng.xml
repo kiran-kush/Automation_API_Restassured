@@ -2,11 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="C:/Users/kiran.kushwah/IdeaProjects/Automation_API/src/test/java/RestassureHelloworld/RassuredAssured/CRUD/PUT_REQUEST/Put_Request_NonBDD.java">
+          name="C:/Users/kiran.kushwah/IdeaProjects/Automation_API/src/test/java/TestNG_Examples">
         <classes>
-            <class name="RestassureHelloworld.RassuredAssured.CRUD.PUT_REQUEST.Put_Request_NonBDD">
+
+            <class name="TestNG_Examples.TestNG02">
                 <methods>
-                    <include name="test_putPositive_tc"/>
+                    <include name="test1"/>
+                    <include name="test2"/>
                 </methods>
             </class>
         </classes>

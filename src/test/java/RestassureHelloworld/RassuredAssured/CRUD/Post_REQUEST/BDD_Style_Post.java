@@ -1,5 +1,6 @@
 package RestassureHelloworld.RassuredAssured.CRUD.Post_REQUEST;
 
+import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.testng.annotations.Test;
@@ -13,6 +14,7 @@ public class BDD_Style_Post {
 //            "password" : "password123"
 //    }
     // Header- Content type- application/json
+    @Description ("Verify the post request")
     @Test
     public void BddStyle_Post() {
            String payload= "{\n" +
