@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/kiran.kushwah/IdeaProjects/Automation_API/src/test"><classes><class name="RestassureHelloworld.RassuredAssured.CRUD.Post_REQUEST.raTestNGBDD"><methods><include name="getRequest_Positive"/><include name="PostRequest"/></methods></class><class name="RestassureHelloworld.RassuredAssured.CRUD.Post_REQUEST.ra_Post_Non_BDD"><methods><include name="PostRequest1"/><include name="PostRequest2"/></methods></class><class name="TestNG_Examples.All_Annotations"><methods><include name="demo5"/></methods></class><class name="TestNG_Examples.TestNG01"><methods><include name="test1"/><include name="test2"/></methods></class><class name="TestNG_Examples.TestNG03"><methods><include name="test1"/></methods></class></classes></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/kiran.kushwah/IdeaProjects/Automation_API/src/test/java/RestassureHelloworld/RassuredAssured/CRUD/PUT_REQUEST/Put_Request_NonBDD.java">
+        <classes>
+            <class name="RestassureHelloworld.RassuredAssured.CRUD.PUT_REQUEST.Put_Request_NonBDD">
+                <methods>
+                    <include name="test_putPositive_tc"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

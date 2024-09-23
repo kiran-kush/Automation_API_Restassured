@@ -49,7 +49,7 @@ public class PUT {
 
          String token = res.then().extract().path("token");
          System.out.println(token);
-         String payload_post = "{\n" +
+         String payload_patch = "{\n" +
 
                  "      \"firstname\" : \"Sandra\",\n" +
                  "       \"lastname\" : \"Brown\", \n" +
@@ -67,7 +67,7 @@ public class PUT {
          // name= sandra from james
          // booking id= 4637
          r.basePath("booking");
-         r.body(payload_post);
+         r.body(payload_patch);
          VR= res.then().log().all();
          VR.statusCode(200);
 
