@@ -22,7 +22,7 @@ public class NonBddStyle {
     public static void test2(){
         r.basePath("/IN/-1");
         r.when().get();
-        r.then().log().all().statusCode(4004);
+        r.then().log().all().statusCode(404);
     }
 
 }

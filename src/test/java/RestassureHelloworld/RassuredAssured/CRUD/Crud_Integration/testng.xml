@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/kiran.kushwah/IdeaProjects/Automation_API/src/test/java/RestassureHelloworld/RassuredAssured/CRUD/Crud_Integration/TestCase_Integration.java">
+        <classes>
+            <class name="RestassureHelloworld.RassuredAssured.CRUD.Crud_Integration.testCaseIntegration">
+
+            </class>
+        </classes>
+
+    </test>
+</suite>
